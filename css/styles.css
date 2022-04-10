@@ -16,19 +16,19 @@ body{
 
 .navbar{    
     height: 80px;
-    background-color: #373b6a;
+    background-color: rgb(59, 55, 55);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .navbar h4 {
     padding-right: 10px;
+    color:white;
 }
 .textbox{    
     margin-right: 5px;
     border-radius: 15px;
     padding: 10px;
-    background-color: #373b6a;
     border-color: black;
 }
 .bg-darkgrey{
@@ -67,6 +67,7 @@ body{
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 50px;
 }
 .card:hover {
     transform: scale(1.2) ;
