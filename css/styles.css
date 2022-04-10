@@ -9,6 +9,11 @@ body{
     /* min-height: 300px; */
 }
 
+.text-white{
+    color: white;
+    padding: 5px;
+}
+
 .navbar{    
     height: 80px;
     background-color: #373b6a;
@@ -63,11 +68,10 @@ body{
     overflow: hidden;
     cursor: pointer;
 }
-/* .card:hover .movieDescription {
-    display: block;
-    transition: all 0.25s ease-in-out;
-    bottom: 0;
-} */
+.card:hover {
+    transform: scale(1.2) ;
+    transition: transform 1s ease-in-out
+}
 
 .card img{
     height: 400px;
@@ -79,5 +83,16 @@ body{
     justify-content: space-between;
     padding: 10px;
     background-color: #373b6a;
+    margin-bottom: 50px;
 }
 
+.product-detail strong{
+    color: white;
+    font-size: 16px;
+}
+
+.product-detail span{
+    color: rgb(127, 238, 127);
+    background-color:#21254b;
+    padding: 3px;
+}
